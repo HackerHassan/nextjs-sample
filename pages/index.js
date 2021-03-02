@@ -27,7 +27,7 @@ export default function Home() {
       <input type="submit" onclick="myFunction()" value="Submit"></input>
       </form>
 
-      <script>function myFunction() {alert('hi')}</script>
+      <script></script>
 
       <footer className={styles.footer}>
         <a
