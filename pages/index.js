@@ -29,7 +29,7 @@ export default function Home() {
 
       <script> 
       function myFunction() {
-        alert(`An email was just sent to: ${document.getElementsByName("email")[0].value} 😈`)}
+        alert(`An email was just sent to: `)}
       </script>
             
 
