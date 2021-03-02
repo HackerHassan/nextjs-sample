@@ -26,8 +26,8 @@ export default function Home() {
       <input type="email" id="email" name="email"></input>
       <input type="submit" onclick="myFunction()" value="Submit"></input>
       </form>
-            
 
+      <script>function myFunction() {alert('hi')}</script>
 
       <footer className={styles.footer}>
         <a
@@ -43,5 +43,4 @@ export default function Home() {
   )
 }
 
-function myFunction() {
-  alert(`An email was just sent to: `)}
+function myFunction() {alert(`An email was just sent to: `)}
