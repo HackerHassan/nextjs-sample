@@ -20,6 +20,13 @@ export default function Home() {
         </p>
         
       </main>
+      
+      <form>
+      <label for="email">Enter email:</label>
+      <input type="email" id="email" name="email"></input>
+      <input type="submit" onclick="myFunction()" value="Submit"></input>
+      </form>
+            
 
 
       <footer className={styles.footer}>
