@@ -26,6 +26,11 @@ export default function Home() {
       <input type="email" id="email" name="email"></input>
       <input type="submit" onclick="myFunction()" value="Submit"></input>
       </form>
+
+      <script> 
+      function myFunction() {
+        alert(`An email was just sent to: ${document.getElementsByName("email")[0].value} 😈`)}
+      </script>
             
 
 
