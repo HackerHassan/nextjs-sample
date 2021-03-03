@@ -30,9 +30,10 @@ export default function Home() {
       {/* above code adds functionality and cool CSS to copy */}
 
       {/* https://stackoverflow.com/questions/54067291/next-js-loads-script-tags-but-it-doesnt-execute-them */}
-      <Head>
+      <div><Head>
       <script type="text/javascript" src="/mail.js"></script>
-      </Head>
+      </Head></div>
+      
 
       <footer className={styles.footer}>
         <a
