@@ -26,8 +26,13 @@ export default function Home() {
       <input type="email" id="email" name="email"></input>
       <input type="submit" onclick="myFunction()" value="Submit"></input>
       </form>
+      {/* https://btc.static.fun/?edit=oBdtJxWv96 */}
+      {/* above code adds functionality and cool CSS to copy */}
 
-      <script></script>
+      {/* https://stackoverflow.com/questions/54067291/next-js-loads-script-tags-but-it-doesnt-execute-them */}
+      <Head>
+      <script type="text/javascript" src="/mail.js"></script>
+      </Head>
 
       <footer className={styles.footer}>
         <a
@@ -43,4 +48,3 @@ export default function Home() {
   )
 }
 
-function myFunction() {alert(`An email was just sent to: `)}
