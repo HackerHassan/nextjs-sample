@@ -31,7 +31,7 @@ export default function Home() {
 
       {/* https://stackoverflow.com/questions/54067291/next-js-loads-script-tags-but-it-doesnt-execute-them */}
       <div><Head>
-      <script type="text/javascript" src="/api/mail.js"></script>
+      <script type="text/javascript" src="api/mail.js"></script>
       </Head></div>
       
 
