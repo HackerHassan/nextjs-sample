@@ -18,14 +18,15 @@ export default function Home() {
           Get started by inserting an{' '}
           <code className={styles.code}>email address</code>
         </p>
-        
-      </main>
-      
-      <form>
+        <form>
       <label for="email">Enter email:</label>
       <input type="email" id="email" name="email"></input>
       <input type="submit" onclick="myFunction()" value="Submit"></input>
       </form>
+        
+      </main>
+      
+      
       {/* https://btc.static.fun/?edit=oBdtJxWv96 */}
       {/* above code adds functionality and cool CSS to copy */}
 
