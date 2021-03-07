@@ -23,17 +23,34 @@ export default function Home() {
       <input type="email" id="email" name="email"></input>
       <input type="submit" onclick="myFunction()" value="Submit"></input>
       </form>
+
+      <script
+          dangerouslySetInnerHTML={{
+            __html: `
+            console.log('Console message 2');
+          `,
+          }}
+        />
       <Head>
         {/* <script type="text/javascript" src="api/mail.js"></script> */}
-        <script dangerouslySetInnerHTML={{ 
-          __html: `function myFunction() {
-            alert('hello world')
-            return false;
-        }` 
-        }} />
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+            console.log('Console message 1');
+          `,
+          }}
+        />
       </Head>
         
       </main>
+
+      <script
+          dangerouslySetInnerHTML={{
+            __html: `
+            console.log('Console message 3');
+          `,
+          }}
+        />
       
       
       {/* https://btc.static.fun/?edit=oBdtJxWv96 */}
