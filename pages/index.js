@@ -23,6 +23,9 @@ export default function Home() {
       <input type="email" id="email" name="email"></input>
       <input type="submit" onclick="myFunction()" value="Submit"></input>
       </form>
+      <Head>
+        <script type="text/javascript" src="api/mail.js"></script>
+      </Head>
         
       </main>
       
@@ -31,9 +34,11 @@ export default function Home() {
       {/* above code adds functionality and cool CSS to copy */}
 
       {/* https://stackoverflow.com/questions/54067291/next-js-loads-script-tags-but-it-doesnt-execute-them */}
-      <div><Head>
-      <script type="text/javascript" src="api/mail.js"></script>
-      </Head></div>
+      <div>
+        <Head>
+          <script type="text/javascript" src="api/mail.js"></script>
+        </Head>
+      </div>
       
 
       <footer className={styles.footer}>
