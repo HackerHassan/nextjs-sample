@@ -9,11 +9,16 @@ export default function Home() {
   let chicken = 'dude are these nuggets';
   
   React.useEffect(() => {
+    // https://stackoverflow.com/questions/55151041/window-is-not-defined-in-next-js-react-app
+
     // window is accessible here.
     function myFunction() {
       let greet = 'hello world'
       alert(greet)
     }
+
+    // confirmation function 
+    // https://stackoverflow.com/questions/16849117/html-how-to-do-a-confirmation-popup-to-a-submit-button-and-then-send-the-reque
     
     myFunction()
   }, []);
@@ -38,13 +43,13 @@ export default function Home() {
         <form>
       <label for="email">Enter email:</label>
       <input type="email" id="email" name="email"></input>
-          <input type="submit" onclick="return confirm('Are you sure?')" value="Submit"></input>
+          <input type="submit" onclick="myFunction()" value="Submit"></input>
       </form>
 
       <script
           dangerouslySetInnerHTML={{
             __html: `
-            console.log(chicken);
+            console.log('console message 0003417');
           `,
           }}
         />
