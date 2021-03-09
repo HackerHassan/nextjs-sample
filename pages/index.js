@@ -47,7 +47,10 @@ export default function Home() {
       <script
           dangerouslySetInnerHTML={{
             __html: `
-            alert('Console message 3');
+            function myFunction() {
+              let greet = 'hello world'
+              alert(greet)
+            }
           `,
           }}
         />
