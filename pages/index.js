@@ -21,7 +21,7 @@ export default function Home() {
         <form>
       <label for="email">Enter email:</label>
       <input type="email" id="email" name="email"></input>
-      <input type="submit" onclick="myFunction()" value="Submit"></input>
+      <input type="submit" onclick="alert(document.getElementsByName("email")[0].value)" value="Submit"></input>
       </form>
 
       <script
