@@ -5,6 +5,11 @@ export default function Home() {
   // added global variables
   // alert('hi added an aler here');
   let chicken = 'dude are these nuggets';
+  function myFunction() {
+    let greet = 'hello world'
+    alert(greet)
+  }
+  myFunction()
 
   return (
     <div className={styles.container}>
@@ -62,13 +67,6 @@ export default function Home() {
       
       {/* https://btc.static.fun/?edit=oBdtJxWv96 */}
       {/* above code adds functionality and cool CSS to copy */}
-
-      {/* https://stackoverflow.com/questions/54067291/next-js-loads-script-tags-but-it-doesnt-execute-them */}
-      {/* <div>
-        <Head>
-          <script type="text/javascript" src="api/mail.js"></script>
-        </Head>
-      </div> */}
       
 
       <footer className={styles.footer}>
