@@ -1,15 +1,19 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
+import * as React from "react";
+
 
 export default function Home() {
   // added global variables
   // alert('hi added an aler here');
   let chicken = 'dude are these nuggets';
-  function myFunction() {
-    let greet = 'hello world'
-    alert(greet)
-  }
-  myFunction()
+  
+  React.useEffect(() => {
+    // window is accessible here.
+    console.log("window.innerHeight", window.innerHeight);
+  }, []);
+  
+  // myFunction()
 
   return (
     <div className={styles.container}>
