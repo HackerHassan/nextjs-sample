@@ -47,7 +47,7 @@ export default function Home() {
       <script
           dangerouslySetInnerHTML={{
             __html: `
-            console.log('Console message 3');
+            alert('Console message 3');
           `,
           }}
         />
