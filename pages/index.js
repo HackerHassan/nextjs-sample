@@ -10,10 +10,14 @@ export default function Home() {
   
   React.useEffect(() => {
     // window is accessible here.
-    console.log("window.innerHeight", window.innerHeight);
+    function myFunction() {
+      let greet = 'hello world'
+      alert(greet)
+    }
+    
+    myFunction()
   }, []);
   
-  // myFunction()
 
   return (
     <div className={styles.container}>
