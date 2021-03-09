@@ -2,6 +2,10 @@ import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
+  // added global variables
+  alert('hi added an aler here');
+  let chicken = 'dude are these nuggets';
+
   return (
     <div className={styles.container}>
       <Head>
@@ -27,7 +31,7 @@ export default function Home() {
       <script
           dangerouslySetInnerHTML={{
             __html: `
-            console.log('Console message 2');
+            console.log(chicken);
           `,
           }}
         />
