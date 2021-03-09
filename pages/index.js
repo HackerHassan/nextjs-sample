@@ -3,7 +3,7 @@ import styles from '../styles/Home.module.css'
 
 export default function Home() {
   // added global variables
-  alert('hi added an aler here');
+  // alert('hi added an aler here');
   let chicken = 'dude are these nuggets';
 
   return (
