@@ -15,6 +15,7 @@ export default function Home() {
     function myFunction() {
       var email_address = document.getElementsByName("email")[0].value
       alert(`An email was just sent to: ${email_address} 😈`)
+      console.log(`An email was just sent to: ${ email_address }`)
     }
 
     // confirmation function 
