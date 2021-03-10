@@ -13,8 +13,8 @@ export default function Home() {
 
     // window is accessible here.
     function myFunction() {
-      let greet = 'hello world'
-      alert(greet)
+      var email_address = document.getElementsByName("email")[0].value
+      alert(`An email was just sent to: ${email_address} 😈`)
     }
 
     // confirmation function 
